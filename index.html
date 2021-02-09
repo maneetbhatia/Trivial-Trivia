@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+	<script src="assets/javascript/game.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="div1">
+        <h1>Trivial Trivia!</h1><br>
+		<div id="div2">
+		<button id="btn" onclick=start() type="button">Start</button>
+		</div>
+        
+        <!-- <h3 id="h3">Time Remaining: </h3><br><br> -->
+			<div id="div3">
+                <h3 id="h3">Time Remaining: </h3><br><br>
+				<form name="form1" >
+                <div>
+                    <p>1) Which character is used to indicate an end tag</p><br>                      
+                            <input type="radio" name="q0" onclick=get() value="a">&
+                            <input type="radio" name="q0" onclick=get() value="b">/
+                            <input type="radio" name="q0" onclick=get() value="c">*
+                            <input type="radio" name="q0" onclick=get() value="d">!
+                </div>
+                <br>
+                <br>
+                <div>
+                        <p>2) Which HTML attribute is used to define inline styles?</p><br>
+                                <input type="radio"  name="q1" onclick=get1() value="a">Class
+                                <input type="radio"  name="q1" onclick=get1() value="b">Script
+                                <input type="radio"  name="q1" onclick=get1() value="c">Style
+                                <input type="radio"  name="q1" onclick=get1() value="d">Font
+                </div>
+                <br>
+                <br>
+                <div>
+                        <p>3) How can you add a comment in a JavaScript?</p><br>
+                                <input type="radio" name="q2" onclick=get2() value="a">"This is a comment"
+                                <input type="radio" name="q2" onclick=get2() value="b">//This is a comment//
+                                <input type="radio" name="q2" onclick=get2() value="c">(This is a comment)
+                                <input type="radio" name="q2" onclick=get2() value="d">*This is a comment*    
+                </div>
+                <br>
+                <br>
+                <div>
+                        <p>4) Where is the correct place to insert a JavaScript</p><br>
+                                <input type="radio" name="q3" onclick=get3() value="a">Footer Section
+                                <input type="radio" name="q3" onclick=get3() value="b">Article Section
+                                <input type="radio" name="q3" onclick=get3() value="c">Side Section
+                                <input type="radio" name="q3" onclick=get3() value="d">Body Section
+                </div>
+                <br>
+                <br>
+                <div>
+                        <p>5) Which one out of these is JavaScript library?</p><br>
+                            <input type="radio" name="q4" onclick=get4() value="a">HTML
+                            <input type="radio" name="q4" onclick=get4() value="b">MY SQL
+                            <input type="radio" name="q4" onclick=get4() value="c">AJAX
+                            <input type="radio" name="q4" onclick=get4() value="d">JQUERY
+                </div>
+                <br>
+                <br>
+                <div>
+                        <p>6) Which language do we need for Front-End Web Development?</p><br>
+                            <input type="radio" name="q5" onclick=get5() value="a">HTML
+                            <input type="radio" name="q5" onclick=get5() value="b">CSS
+                            <input type="radio" name="q5" onclick=get5() value="c">JS & JQuery
+                            <input type="radio" name="q5" onclick=get5() value="d">All of them
+                </div>
+                <br>
+                <br>
+                <div>
+                        <p>7) How do you round the number 7.25, to the nearest integer?</p><br>
+                            <input type="radio" name="q6" onclick=get6() value="a">rnd(7.25)
+                            <input type="radio" name="q6" onclick=get6() value="b">Math.round(7.25)
+                            <input type="radio" name="q6" onclick=get6() value="c">Math.rnd(7.25)
+                            <input type="radio" name="q6" onclick=get6() value="d">M.round(7.25)
+                </div>
+                <br>
+                <br>
+                <div>
+                        <p>8) Which sign does JQuery use a shortcut for JQuery</p><br>
+                            <input type="radio" name="q7" onclick=get7() value="a">The $ sign
+                            <input type="radio" name="q7" onclick=get7() value="b">The ? sign
+                            <input type="radio" name="q7" onclick=get7() value="c">The % sign
+                            <input type="radio" name="q7" onclick=get7() value="d">The @ sign
+                </div>
+                
+				<button id="btn1" onclick=done() type="button">Done</button>
+         </div>	       
+				<div id="div4">
+				
+                <p id="p1">Correct Answers: </p>
+                <p id="p2" >Incorrect Answers: </p>
+                <p id="p3">Unanswered: </p><br>
+                
+                <button id="btn2" onclick=startAgain() type="button">Start Again!!!</button>
+				</div>
+				
+			
+	</div>
+  
+    
+
+</body>
+</html>
