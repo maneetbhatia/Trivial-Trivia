@@ -35,18 +35,18 @@
 
 <br>
 
-**Images By**
+**Live Link**
 
-Maneet Singh - https://github.com/Maneet79
+https://maneetbhatia.github.io/Trivial-Trivia/
 
 <br>
 
 **Author**
 
-Maneet Singh - https://github.com/Maneet79
+Maneet Singh - https://github.com/maneetbhatia
 
 <br>
 
 **License**
 
-This project is licensed under the MIT License - see the https://github.com/Maneet79 file for details
+This project is licensed under the MIT License - see the https://github.com/maneetbhatia file for details
